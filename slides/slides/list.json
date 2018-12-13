@@ -1,0 +1,51 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+                "data-background": "#ffffff",
+                "data-background-image": "resources/network.jpg"
+            }
+    },
+    [{
+        "filename": "who-am-i.md",
+        "attr": {
+            "data-background-image": "resources/laptop.jpg"
+        }
+    },
+    {
+        "filename": "who-am-i.1.md",
+        "attr": {
+            "data-background-image": "resources/laptop.jpg"
+        }
+    }],
+    [
+        "frontend/intro.md",
+        {
+        "filename": "frontend/from-ssr-to-csr.md",
+        "attr": {
+                "data-background": "#00aa00",
+                "data-background-image": "resources/bttf.jpg"
+            }
+        },
+        {
+        "filename": "frontend/js.md",
+        "attr": {
+                "data-background": "#00aa00",
+                "data-background-image": "resources/network.jpg"
+            }
+        }
+    ],
+    [
+        "mobile/intro.md",
+        "mobile/history.md",
+        "mobile/native.md",
+        "mobile/hybrid.md",
+        "mobile/hybrid.1.md",
+        "mobile/hybrid.2.md",
+        "mobile/hybrid.3.md"
+    ],
+    [
+        "ionic/index.md",
+        "ionic/ionic.md"
+    ]
+]

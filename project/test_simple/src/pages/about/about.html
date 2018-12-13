@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Chuck Norris Joke generator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input [(ngModel)]="username" type="text"></ion-input>
+    </ion-item>
+
+    <button ion-button full (click)="generaChiste()">Generar chiste</button>
+  </ion-list>
+  <ion-card>
+    <ion-card-content>
+      {{chiste}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

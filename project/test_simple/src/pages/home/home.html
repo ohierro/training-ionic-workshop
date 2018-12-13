@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>{{title}}</h2>
+  <p>
+   Hello world from ionic!
+  </p>
+  <ion-card *ngFor="let noticia of noticias">
+    <img [src]="noticia.image"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{noticia.title}}
+      </ion-card-title>
+      <p>
+        {{noticia.body}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
